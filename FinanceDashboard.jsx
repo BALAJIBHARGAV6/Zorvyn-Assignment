@@ -1042,6 +1042,13 @@ function TransactionsTab() {
     setCurrentPage(0);
   }, [activeTab, filtered]);
 
+  // Clear modals and editing state when role changes
+  React.useEffect(() => {
+    setShowForm(false);
+    setEditingId(null);
+    setDeleteConfirm(null);
+  }, [role]);
+
   // Smooth transition effect when filters change
   React.useEffect(() => {
     setIsTransitioning(true);
