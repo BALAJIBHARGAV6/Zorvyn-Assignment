@@ -193,10 +193,6 @@ No environment variables needed. This is a client-side only application.
 ### Vercel Configuration
 Pre-configured via `vercel.json` for optimal settings.
 
-## 📝 License
-
-This is an assignment submission for Zorvyn. All rights reserved.
-
 ## 👨‍💻 Author
 
 Created as a Frontend Developer Intern Assignment demonstrating React expertise, state management, responsive design, and modern development best practices.
