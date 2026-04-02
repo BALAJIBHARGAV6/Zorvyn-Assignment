@@ -1037,10 +1037,10 @@ function TransactionsTab() {
   const bgTertiary = darkMode ? THEME.bg.tertiary : '#f0f1f8';
   const inputBg = darkMode ? THEME.bg.tertiary : '#ffffff';
 
-  // Reset to page 0 when tab is viewed or filters change
+  // Reset to page 0 when tab is viewed or data filters change
   React.useEffect(() => {
     setCurrentPage(0);
-  }, [activeTab]);
+  }, [activeTab, filtered]);
 
   // Smooth transition effect when filters change
   React.useEffect(() => {
